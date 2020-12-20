@@ -2,6 +2,14 @@
   font: 300;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  position: relative;
+  position: absolute;
   left: 60px;
+  font-size: 3em absolute;
+}
+
+body {
+  background: url("/svg/hoja.svg") no-repeat;
+  background-size: cover;
+  background-position: top 0;
+  background-attachment: fixed;
 }
