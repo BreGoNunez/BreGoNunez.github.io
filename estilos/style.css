@@ -1,15 +1,69 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+a {
+  text-decoration: none;
+}
+
 .textOne {
   font: 300;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   position: absolute;
   left: 60px;
-  font-size: 3em absolute;
+  font-size: 2em;
+  color: rgb(255, 255, 255);
+}
+
+#title-rectangle {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  left: 0px;
+  top: 0px;
+  background: #cfcfcf;
+  align-items: center;
 }
 
 body {
-  background: url("/svg/hoja.svg") no-repeat;
+  background: url("/svg/hojas-mov.svg") no-repeat;
+  background-color: rgb(51, 143, 100);
   background-size: cover;
   background-position: top 0;
   background-attachment: fixed;
+}
+
+#hoja1 {
+}
+
+@keyframes hoja {
+  from {
+  }
+  to {
+  }
+}
+
+.lightbox-gallery p {
+  color: #fff;
+}
+
+@media (max-width: 767px) {
+  .lightbox-gallery h2 {
+    margin-bottom: 25px;
+    padding-top: 25px;
+    font-size: 24px;
+  }
+}
+
+.lightbox-gallery .photos {
+  padding-bottom: 20px;
+}
+
+.lightbox-gallery .item {
+  padding-bottom: 30px;
+  width: 20px;
+  height: auto;
 }
