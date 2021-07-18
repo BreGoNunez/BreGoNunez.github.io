@@ -8,16 +8,7 @@ var reader;
 //-----------Proceso de seleccion de imagen--------------
 
 
-const inputElement = document.getElementById("select");
-inputElement.addEventListener("change",handleFiles,false) ;
-function handleFiles(){
-    const fileList=this.files;
-    ImgName = fileList[0];
-}
-
-
-
-document.getElementById("select").onclick = function (e) {
+/* function seleccionar() {
     
     var input = document.createElement('input');
     input.type = 'file';
@@ -26,10 +17,21 @@ document.getElementById("select").onclick = function (e) {
         files = e.target.files;
         reader = new FileReader();
         reader.onload = function () {
-            document.getElementById("myImg").files[0] = reader.result;
+            document.getElementById("myImg").src = reader.result;
             console.log("Hola");
         }
         reader.readAsDataURL(files[0]);  //me lee la imagen como url y cuando termine, lo asigna a myImg.src, es asincrono
     }
-    input.click();
-}
+    
+} */
+
+function seleccionar(event) {
+    var file = event.target.files[0];
+    var reader = new FileReader();
+    reader.onload = function(e) {
+      // The file's text will be printed here
+      document.getElementById("myImg").src = reader.result;
+    };
+  
+    reader.readAsDataURL(file);
+  }
