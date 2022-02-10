@@ -1,3 +1,5 @@
+@import url(/fonts/fonts.css);
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -24,15 +26,16 @@ a {
   height: 50px;
   left: 0px;
   top: 0px;
-  background: #cfcfcf;
+  background: rgb(207, 207, 207);
   align-items: center;
 }
 
 body {
-  background-image: url("/svg/hojas-mov.svg") no-repeat;
+  /*background-image: url("/img/hoja.png"); */
   background-size: cover;
   background-position: top 0;
   background-attachment: fixed;
+  background-color: rgb(206, 206, 206);
 }
 
 /* #hoja1 {
@@ -67,7 +70,6 @@ body {
   height: auto;
 }
 
-
 #imagenInput {
   position: absolute;
   top: 55px;
@@ -77,4 +79,21 @@ body {
   height: 200px;
   width: 200px;
   border: 2px solid black;
+}
+
+/* HOME PAGE */
+
+#body-rect {
+  margin: 0 auto;
+
+  background-color: rgb(73, 146, 114);
+  width: 400px;
+  height: 500px;
+  box-shadow: 20px 20px 1px black;
+}
+
+.text-title {
+  font-family: "lemon-milk";
+  color: rgb(206, 206, 206);
+  text-align: center;
 }

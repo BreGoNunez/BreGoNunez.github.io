@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="estilos\style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brego</title>
+</head>
+<body>
+    <div>
+        <nav class="menu">
+            
+                <div id="title-rectangle">
+                    <ul>
+                    <li> <a href="/home" class="textOne">Brénedin</a> </li>
+                </ul>
+                </div>  
+        </nav>
+    </div>
+<br><br><br><br>
+    <div id="galeria" class="lightbox-gallery">
+        <div class="container">
+    <div id="rowGaleria" class="row photos">
+        <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://i.imgur.com/zmzERpe.jpg" data-lightbox="photos"><img class="img-fluid" src="https://i.imgur.com/zmzERpe.jpg"></a></div>
+        <p>holasss</p>
+        </div>
+    </div>
+</div>
+
+    <div id="imagenInput">
+        Ingrese imagen
+        <Input id="namebox" type="text"></Input> <br><br>
+        <img src="" id="myImg"> <br>
+        <p id="uploading"></p><br>
+        <progress value="0" max="100" id="upProgress"></progress> <br><br>
+        <input id="select" type="file"  multiple></input> <br>
+        <button id="upload" type="button ">Upload Image</button>
+        <button id="retrieve" type="button" >Retrieve Image</button>
+    </div>
+
+    
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-storage.js"></script>
+
+    <script>
+    var firebaseConfig = {
+        // Your web app's Firebase configuration
+        apiKey: "AIzaSyDMtEaHaoSI5bKIkxXiQXJ_q5dhaW89AQ4",
+        authDomain: "blog-2019e.firebaseapp.com",
+        projectId: "blog-2019e",
+        storageBucket: "blog-2019e.appspot.com",
+        messagingSenderId: "190231489360",
+        appId: "1:190231489360:web:528f29d70f88024d831a55"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+
+    <script src="javascript/funciones.js"></script>
+
+    
+</body>
+
+</html>
