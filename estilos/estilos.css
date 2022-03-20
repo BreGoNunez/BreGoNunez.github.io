@@ -1,0 +1,46 @@
+/* HOME PAGE */
+.rect-container {
+  display: flex;
+  flex-wrap: wrap;
+
+  align-items: flex-start;
+}
+
+#body-rect-main {
+}
+
+p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: normal;
+  color: white;
+  padding: 5px;
+  text-align: justify;
+}
+
+.body-rect {
+  margin: 0 auto;
+  background-color: rgb(119, 182, 155);
+  width: fit-content;
+  height: fit-content;
+  max-width: 300px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.body-rect:hover {
+  transition: 0.6s;
+  box-shadow: 20px 20px 1px black;
+}
+
+.body-rect .img-rect {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.text-title {
+  font-family: "lemon-milk";
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
