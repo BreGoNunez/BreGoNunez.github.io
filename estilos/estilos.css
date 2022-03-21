@@ -1,4 +1,8 @@
-/* HOME PAGE */
+/* HOME PAGE 
+body {
+  background-color: rgb(139, 172, 15);
+}
+*/
 .rect-container {
   display: flex;
   flex-wrap: wrap;
@@ -7,6 +11,16 @@
 }
 
 #body-rect-main {
+}
+
+.fa {
+  padding: 20px;
+  font-size: 60px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  color: rgb(0, 0, 0);
 }
 
 p {
@@ -23,7 +37,7 @@ p {
   width: fit-content;
   height: fit-content;
   max-width: 300px;
-
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
 }
