@@ -8,60 +8,54 @@
     <title>Brego</title>
     <link rel="stylesheet" href="/estilos/estilos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <script src="https://bregonunez.github.io/javascript/mainGallery.js"></script> -->
+
 
 </head>
 
 <body>
-    <div class="rect-container">
-        <div class="body-rect" id="body-rect-main">
-            <h1 class="text-title">Hello, I'm Brego!</h1>
-            <p>I make art, take pictures and code (sometimes).
-                I tend to draw animals in cartoonish ways but mostly things I
-                make up in my mind. Digital or traditional, I like them both!
-                Here you can see some things I've created or captured.
-                You can find me on the media below:
 
-            </p>
-            <div>
-                <a href="https://www.instagram.com/elbrego/" target="_blank" rel="noopener noreferrer"
-                    class="fa fa-instagram"></a>
-                <a href="https://youtube.com/channel/UCOgCMvcxBgS4s1GIMrAFxow" target="_blank" rel="noopener noreferrer"
-                    class="fa fa-youtube"></a>
-            </div>
-
+    <div class="intro-section">
+        <div class="intro-background">
+            &nbsp;
         </div>
 
-        <div class="body-rect">
-            <h1 class="text-title">ROBOT ON SALE!</h1>
-            <img class="img-rect" src="/img/robot.png" alt="Digital drawing of a little robot on a yellow backgound">
-        </div>
+        <h1 class="text-title">Hello, I'm Brego!</h1>
+        <p>I make art, take pictures and code (sometimes).
+            I tend to draw animals in cartoonish ways but mostly things I
+            make up in my mind. Digital or traditional, I like them both!
+            Here you can see some things I've created or captured. <br>
+            You can also find me here:
+            <a href="https://www.instagram.com/elbrego/" target="_blank" rel="noopener noreferrer"
+                class="fa fa-instagram"></a>
+            <a href="https://youtube.com/channel/UCOgCMvcxBgS4s1GIMrAFxow" target="_blank" rel="noopener noreferrer"
+                class="fa fa-youtube"></a>
+    </div>
 
-        <div class="body-rect">
-            <h1 class="text-title">Did you know...?</h1>
-            <p>That I reset my Pokémon Sapphire game when I encountered my first
-                shiny Pokémon ever (a Roselia) because I thought it was a glitch
-                I had caused :(</p>
-        </div>
+    <div class="full-img" id="fullImgBox">
+        <img src="https://bregonunez.github.io/img/robot.png" id="fullImg" alt="">
+        <span onclick="closeFullImg()">X</span>
+    </div>
 
-        <div class="body-rect">
-            <h1 class="text-title">A TABLE DURING THE PANDEMIC</h1>
-            <img class="img-rect" src="/img/crayonMesaDetallada.png"
-                alt="Digital paiting of a face mask and alcohol bottle on top of a table">
-        </div>
-
-        <div class="body-rect">
-            <h1 class="text-title">¡PRECAUCION! GATO MOJADO</h1>
-            <img class="img-rect" src="/img/gatoSenalReflejo.jpg"
-                alt="Digital drawing of a yellow cat with the back resembling a wet floor sign ">
-        </div>
-
-        <div class="body-rect">
-            <h1 class="text-title">MINIMAL CAT</h1>
-            <img class="img-rect" src="/img/gatoSenalMinimal.jpg"
-                alt="Digital paiting of a yellow cat on a blue pastel background">
-        </div>
+    <div class="img-gallery">
+        <img src="https://bregonunez.github.io/img/robot.png" onclick="openFullImg(this.src)">
+        <img src="https://bregonunez.github.io/img/robot.png" onclick="openFullImg(this.src)">
+        <img src="https://bregonunez.github.io/img/robot.png" onclick="openFullImg(this.src)">
+        <img src="https://bregonunez.github.io/img/robot.png" onclick="openFullImg(this.src)">
+        <img src="https://bregonunez.github.io/img/crayonMesaDetallada.png" onclick="openFullImg(this.src)">
+        <img src="https://bregonunez.github.io/img/gatoSenalReflejo.jpg" onclick="openFullImg(this.src)">
+        <img src="https://bregonunez.github.io/img/gatoSenalMinimal.jpg" onclick="openFullImg(this.src)">
 
     </div>
+
+
+
+
+
+
+
+
+    <script src="/javascript/mainGallery.js"></script>
 </body>
 
 </html>
