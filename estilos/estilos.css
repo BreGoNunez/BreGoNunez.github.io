@@ -9,6 +9,12 @@ body {
   margin: 0;
 }
 
+.body-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 .text-title {
   font-family: "lemon-milk";
   color: rgb(0, 0, 0);
