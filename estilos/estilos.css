@@ -21,6 +21,7 @@ body {
   text-align: left;
   font-size: 8vmin;
 }
+/*The <P> is supposed to go here*/
 .intro-section {
   position: absolute;
   width: 100%;
@@ -35,6 +36,7 @@ body {
   font-size: 5vmin;
 }
 
+/*mobile screens get a zoomed and new positioned image*/
 @media (max-width: 916px) 
 { 
   .intro-section  .intro-background { background-size: 260%;
@@ -51,7 +53,7 @@ body {
     
 }
 
-
+/*desktop screens */
 @media (min-width: 916px){
 .intro-section .intro-background {
   position: absolute;
