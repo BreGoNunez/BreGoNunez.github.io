@@ -31,7 +31,9 @@
                     class="fa fa-instagram"></a>
                 <a href="https://youtube.com/channel/UCOgCMvcxBgS4s1GIMrAFxow" target="_blank" rel="noopener noreferrer"
                     class="fa fa-youtube"></a>
-                <a href="mailto:elbrego@pm.me" target="_blank" rel="noopener noreferrer" class="fa fa-envelope"></a>
+                <a href="#" id="mlink" target="_blank" rel="noopener noreferrer" class="fa fa-envelope"></a>
+
+                
             </p>
         </div>
 
@@ -52,6 +54,23 @@
             <img src="https://bregonunez.github.io/img/petalBlackBackHD.png" onclick="openFullImg(this.src)">
             <img src="https://bregonunez.github.io/img/petaloSimple.png" onclick="openFullImg(this.src)">
 
+            <footer>
+                <script type="text/javascript" src="//counter.websiteout.com/js/2/4/0/1"></script>
+            </footer>
+            
+
+                        <script>
+                     /*thanks to Matthew W. Thomas for this code! */   
+                    /* 1. define variables */
+                    var me = "elbrego";
+                    var place = "pm.me";
+                    
+                    /* 2. find email link to replace */
+                    var elink = document.getElementById("mlink");
+                    
+                    /* 3. replace link href with variables  */
+                    elink.href = `mailto:${me}@${place}`;
+                    </script>
         </div>
 
     </div>
